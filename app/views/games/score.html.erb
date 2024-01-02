@@ -1,3 +1,8 @@
-<h1>Games#score</h1>
-
-<p> <%= @result %> </p>
+<div class="container mt-5">
+  <div class="d-flex flex-column align-items-center border border-primary p-5 justify-content-center">
+    <h1>Result</h1>
+    <br>
+    <h5><%= @result%></h5>
+    <%= link_to "new game?", game_path, class:"btn btn-primary"%>
+  </div>
+</div>
